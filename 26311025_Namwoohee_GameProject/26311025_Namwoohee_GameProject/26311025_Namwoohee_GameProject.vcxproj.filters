@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{E7C6C0A8-3B1D-4D2E-9C0F-6C4C0A9D7A11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="CApplication.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="CScene.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="SceneBegin.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="ScenePlay.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="SceneResult.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Player.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Bullet.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Enemy.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApplication.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="CScene.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="SceneBegin.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="ScenePlay.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="SceneResult.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Player.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Bullet.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Enemy.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Common.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\gameStart.jpg"><Filter>Texture</Filter></Image>
+    <Image Include="Texture\gameResult.jpg"><Filter>Texture</Filter></Image>
+    <Image Include="Texture\background.jpg"><Filter>Texture</Filter></Image>
+    <Image Include="Texture\player.png"><Filter>Texture</Filter></Image>
+    <Image Include="Texture\enemy.png"><Filter>Texture</Filter></Image>
+    <Image Include="Texture\bullet.png"><Filter>Texture</Filter></Image>
+  </ItemGroup>
+</Project>
